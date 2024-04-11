@@ -1,25 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/estilo.css">
+
     <title>Tarjetita piola</title>
 </head>
 
 <body>
     <div class="container">
         <article class="tarjeta">
-            <div class="encabezado">ENCABEZADO</div>
+            <div class="encabezado">    
+                <div class="iconos flex">
+                        <i class="fa-solid fa-ghost"></i>
+                        <i class="fa-regular fa-user"></i>
+                        <i class="fa-solid fa-baby-carriage"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+
+            </div>
             <div class="producto">
+
                 <ul class="sel_colores">
                     <li class="rojo"></li>
                     <li class="negro"></li>
                     <li class="violeta"></li>
                     <li class="blanco"> </li>
                 </ul>
-                <div class="sel_colores">1 2 3 4</div>
+                <div class="sel_colores"></div>
                 <span>Remera lisa</span>
                 <div class="precio">$20000</div>
                 <ul class="talles">
@@ -29,8 +40,29 @@
                     <li>XL</li>
                 </ul>
             </div>
-            <div class="desc_producto">DESCRIPCION PRODUCTO</div>
-            <div class="botonera">BOTON</div>
+            <div class="desc_producto">DESCRIPCION PRODUCTO
+<!--                 <input type="search" list="talles" >
+                    <datalist id="talles">
+                        <select>
+                            <option value="S">Small</option>
+                            <option value="M">Medioum</option>
+                            <option value="L">Large</option>
+                            <option value="XL">Extra large</option>
+                        </select>
+                    </datalist>
+                </input> -->
+                <h3>Super remera</h3>
+                <blockquote>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </blockquote>
+
+            </div>
+            <div class="botonera">
+                <button type="button">Agregar al carrito</button>
+            </div>
 
         </article>
     </div>
