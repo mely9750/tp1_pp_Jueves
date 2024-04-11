@@ -2,11 +2,6 @@
     margin: 0;padding: 0;box-sizing: border-box;list-style: none;
 }
 
-@media screen and (min-width: 700px) {
-    .container{
-        background: linear-gradient(pink 0%, white 100%)!important;
-    }
-}
 body{
     height: 100vh;
     width: 100%;
@@ -156,13 +151,13 @@ body{
             }
         }
 
+}/*Anidado de clases*/
 
-        
-        
-    }/*Anidado de clases*/
-
+@media screen and (min-width: 700px) {
+    .container{
+        background: linear-gradient(pink 0%, white 100%)!important;
+    }
 }
-
 /* span{background-color: green;} */
 
 
